@@ -1,0 +1,11 @@
+# Versions tested together (Nov 2026). Playground >=1.0 dropped the quadruped envs,
+# and Brax 0.14.2 breaks with JAX >=0.9 (jax.device_put_replicated removed).
+playground==0.2.0
+brax==0.14.2
+jax==0.8.3
+jaxlib==0.8.3
+flax==0.12.6
+mujoco==4.0.1
+mujoco-mjx==4.0.1
+mediapy
+matplotlib
